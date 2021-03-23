@@ -7,11 +7,18 @@ body
 	margin: 0 auto;
 }
 
+h2
+{
+	text-align:center;
+}
+
 table 
 {
 	border-collapse: collapse;
 	border: 1px solid black;
 	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 thead 
@@ -21,7 +28,10 @@ thead
 
 th, td 
 {
-	border: 1px solid black;
+	border-bottom:none;
+	border-left:1px solid black;
+	border-right:1px solid black;
+	border-top:1px solid black;
 	padding: .2em 1em .2em .5em;
 	text-align: left;
 	vertical-align: middle;
@@ -34,7 +44,19 @@ th, td
 	
 }
 
-tbody tr:nth-child(even) td 
+.department
+{
+	background:white;
+	vertical-align:top;
+}
+
+.totalcol
+{
+	text-align:right;
+}
+
+tbody tr:nth-child(even) td:not(.department)
 {
 	background-color: yellow;
 }
+
