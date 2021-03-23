@@ -53,6 +53,7 @@ th, td
 .totalcol
 {
 	text-align:right;
+	font-weight:bold;
 }
 
 tbody tr:nth-child(even) td:not(.department)
