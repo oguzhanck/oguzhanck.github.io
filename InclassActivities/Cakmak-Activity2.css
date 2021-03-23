@@ -41,13 +41,13 @@ th, td
 {
 	text-align: right;
 	background-color : yellow;
-	
 }
 
 .department
 {
 	background:white;
 	vertical-align:top;
+	font-weight:bold;
 }
 
 .totalcol
@@ -60,4 +60,10 @@ tbody tr:nth-child(even) td:not(.department)
 {
 	background-color: yellow;
 }
+
+tbody tr:nth-child(odd) td.right
+{
+	background-color: white;
+}
+
 
