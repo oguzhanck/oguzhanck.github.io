@@ -6,35 +6,35 @@ CSS styles for Ultimate frisbee page
 body {
   color: black;
   font: 12pt "Tahoma", "Arial", sans-serif;
+  background-image: url("/back.jpg");
+  background-color: #997aaa;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#wrapper{
-
+#wrapper {
+  width: 50%;
+  height: 800px;
+  border: 2px solid black;
+  background-color: transparent;
+  margin: auto;
+  padding: 10px;
 }
 
 #header {
-
+  width: 50%;
+  height: max-content;
+  border: 2px solid black;
+  background-color: turquoise;
+  margin: auto;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-
-#news {
-
-}
-
 
 #main {
-
 }
-
-#main img{
-
-}
-
 
 #footer {
-
 }
-
-h2,h1{
-
-}
-
