@@ -13,15 +13,6 @@ body {
   background-size: cover;
 }
 
-#wrapper {
-  width: 50%;
-  height: 800px;
-  border: 2px solid black;
-  background-color: transparent;
-  margin: auto;
-  padding: 10px;
-}
-
 #header {
   width: 50%;
   height: max-content;
@@ -29,12 +20,121 @@ body {
   background-color: turquoise;
   margin: auto;
   text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
-#main {
+#wrapper {
+	width: 50%;
+	height: 800px;
+	border: 2px solid black;
+	background-color: gray;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
 }
 
-#footer {
+#top-part {
+	border-top: 1px solid black;
+	color:turquoise;
 }
+
+ul{
+	list-style-type: katakana;
+}
+
+#menu {
+	border-top: 1px solid black;
+	color:turquoise;
+	text-align:center;
+}
+
+.menu-table {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+td {
+	border:2px solid blue;
+}
+
+th {
+	border:2px solid blue;
+	background:white;
+}
+
+.altrow {
+	border:2px solid black;
+}
+
+.altrow:nth-child(even) {
+	background-color:turquoise;
+	color:white;
+}
+
+.altrow:nth-child(odd) {
+	background-color: black;
+	
+}
+
+#music {
+	border-top: 1px solid black;
+	color:turquoise;
+	text-align:center;
+}
+
+#location {
+	border-top: 1px solid black;
+	color:turquoise;
+	text-align:center;
+}
+
+img {
+	border: 4px solid black;
+	margin-left:40%;
+	margin-right:60%;
+}
+
+footer {
+	width: 50%;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	background-color: gray;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:small;
+}
+
+#validate {
+	background:white;
+	width: 50%;
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+	border: 2px solid black;
+}
+
+p {
+  margin:0;
+}
+
+.menu-head {
+	font-family: "Brush Script MT";
+	font-size:30px;
+}
+
+.music-head {
+	font-family: "Lucida Handwriting";
+}
+
+.location-head {
+	font-family: "Papyrus";
+}
+
+
+
+
+
+
+
+
