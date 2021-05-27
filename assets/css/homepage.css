@@ -3,7 +3,7 @@
 }
 
 .banner{
-    background: url("motorcycle.jpg") center;
+    background: url("../img/motorcycle.jpg") center;
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
