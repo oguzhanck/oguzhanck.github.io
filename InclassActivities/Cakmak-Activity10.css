@@ -1,0 +1,19 @@
+.button {
+	margin-left:10px;
+}
+
+label {
+    display: block;
+    width: 220px;
+    float: left;
+    margin:8px;
+}
+
+.input {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+br {
+    clear: left;
+}
