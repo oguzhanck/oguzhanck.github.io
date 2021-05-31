@@ -1,8 +1,33 @@
 .content {
-	height:800px;
+  height: 800px;
 }
 
 .infoh1 {
-	color:orange;
-	text-align:center;
+  color: orange;
+  text-align: center;
+}
+
+dl.questions {
+  background: #dce3e5;
+}
+
+dl.questions dt {
+  background: #e8ecee url("plus.svg") right center no-repeat;
+  background-size: 22px;
+  background-origin: content-box;
+  cursor: pointer;
+  padding: 15px;
+  border-bottom: 1px solid #dce3e5;
+}
+
+dl.questions dd {
+  padding: 15px;
+  background: #dce3e5;
+}
+
+dl.questions .expanded_img {
+  background: #e8ecee url("minus.svg") right center no-repeat;
+  background-size: 15px;
+  background-origin: content-box;
+  cursor: pointer;
 }
