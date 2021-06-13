@@ -1,9 +1,19 @@
 $("document").ready(function () {
-  "use strict";
+	$.ajax({
+            url:"data.json",
+            dataType:"json",
+            type:"GET",
+            success:function (data){
+                $(".countdown").final_countdown({
 
-  $(".countdown").final_countdown({
-    start: 1362139200,
-    end: 1388461320,
-    now: 1387461319,
-  });
+                    start: data["countdown"][0].start,
+                    end: data["countdown"][0].end,
+                    now: data["countdown"][0].now,
+                });
+            },
+            error(){
+                console.log("Connection Failed");
+            }
+        })
+
 });

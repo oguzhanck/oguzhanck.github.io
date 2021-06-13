@@ -4,12 +4,15 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Motorcycle</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/homepage.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/type.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
 		integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+	<link href="assets/css/ziehharmonika.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -25,10 +28,10 @@
 				</button>
 				<div class="collapse navbar-collapse" id="nvbCollapse">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active pl-1">
+						<li class="nav-item pl-1">
 							<a class="nav-link" href="index.html"><i class="fa fa-home fa-fw mr-1"></i>Home</a>
 						</li>
-						<li class="nav-item pl-1">
+						<li class="nav-item active pl-1">
 							<a class="nav-link" href="type.html"><i class="fa fa-th-list fa-fw mr-1"></i>Bikes Type</a>
 						</li>
 						<li class="nav-item pl-1">
@@ -51,53 +54,35 @@
 
 	<!--# Main Content #-->
 	<div class="content">
-		<div class="banner">
-			<!-- <h1 class="infoh1">This My Home Page</h1> -->
-			<div id="allcontent">
-				<div id="maincontent">
-					<div class="portfolio">
-						<img src="assets/img/motorcycle1.jpg" alt="Image Alt" /><br />
-						<div class="ombra"></div>
-					</div>
-					<div class="portfolio">
-						<img src="assets/img/250sr.png" alt="Image Alt" /><br />
-						<div class="ombra"></div>
-					</div>
-					<div class="portfolio">
-						<img src="assets/img/250nk.jpg" alt="Image Alt" /><br />
-						<div class="ombra"></div>
-					</div>
-					<div class="portfolio">
-						<img src="assets/img/ns200.jpg" alt="Image Alt" /><br />
-						<div class="ombra"></div>
-					</div>
+		<div class="container">
+			<div class="ziehharmonika">
+				<h3>Standard</h3>
+				<div>
+					<p id="data1"></p>
 				</div>
-				<div id="navi"></div>
+				<h3>Cruiser</h3>
+				<div>
+					<p id="data2">
+					</p>
+				</div>
+				<h3>Sport Bike
+				</h3>
+				<div>
+					<p id="data3"></p>
+				</div>
+				<h3>Touring</h3>
+				<div>
+					<p id="data4"></p>
+				</div>
+				<h3>Dual Sport</h3>
+				<div>
+					<p id="data5"></p>
+				</div>
 			</div>
-
 		</div>
+
+
 	</div>
-
-	<!-- popup -->
-
-	<div id="boxes">
-		<div id="dialog" class="window"> Cookies
-			<div id="lorem">
-				<p>We use cookies and similar technologies that are necessary to operate the website. Additional cookies
-					are only used with your consent. We use the additional cookies to perform analyses of website usage
-					and to check marketing measures for their efficiency. These analyses are carried out to provide you
-					with a better user experience on the website. You are free to give, deny, or withdraw your consent
-					at any time by using the "cookie settings" link at the bottom of each page. You can consent to our
-					use of cookies by clicking "Agree". For more information about what information is collected and how
-					it is shared with our partners.</p>
-			</div>
-			<div id="popupfoot"> <a href="#" class="close agree">I agree</a><a class="close agree" style="color:red;"
-					href="#">I do not agree</a> </div>
-		</div>
-		<div id="mask">
-		</div>
-	</div>
-
 	<!--# Main Content #-->
 
 	<!--- Footer --->
@@ -150,18 +135,18 @@
 	</footer>
 	<!--# Footer #-->
 
-	<script src="ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-		crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="assets/js/ziehharmonika.js"></script>
+	<script src="assets/js/type.js"></script>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
 		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
 		crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 		crossorigin="anonymous"></script>
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="assets/js/homepage.js"></script>
+
+
 
 </body>
 
